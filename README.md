@@ -1,5 +1,5 @@
-## 五子棋
-### 代码结构
+## Gomoku
+### Structure of Code
 ```sh
 .
 ├── DQN
@@ -35,12 +35,11 @@
     ├── policy_value_net_tensorlayer.py
     └── train.py
 ```
-### 测试及运行
-- 在每个文件夹下运行
+### Test and Run
+- Run the following command under each file
 ```sh
 python3 main.py
 ```
-- 环境
-  - alphabeta-prunning：基础环境
+- Environment
   - DQN：tensorflow 2.6
   - alphazero：tensorflow 1.15
